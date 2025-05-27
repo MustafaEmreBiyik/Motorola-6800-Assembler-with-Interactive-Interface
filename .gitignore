@@ -25,3 +25,9 @@ poetry.lock
 .env
 *.secret
 config.py  # (içeriği gizliyse)
+*.bak
+*.swp
+*.coverage
+.pytest_cache/
+*.sqlite3
+*.ipynb_checkpoints/
