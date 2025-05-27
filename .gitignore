@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.vscode/
+env/
+venv/
+.venv/
+
+.DS_Store
+Thumbs.db
+*.log
+# pipenv veya poetry kullanıyorsan:
+Pipfile.lock
+poetry.lock
+
+# IDE dosyaları (PyCharm vb.)
+.idea/
+
+# Tkinter GUI ekran görüntüleri veya geçici veriler
+*.png
+*.jpg
+*.tmp
+.env
+*.secret
+config.py  # (içeriği gizliyse)
